@@ -36,6 +36,13 @@
     padding-top: 10px;
 }
 
+.author-box img {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    float:left;
+}
+
 body{
     font-family:sans-serif;
 }
@@ -62,5 +69,10 @@ h2{
 
 .author-text{
     font-size:25px;
+    float: left;
 }
 
+
+.other {
+    padding-top: 30px;
+}
