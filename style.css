@@ -1,3 +1,8 @@
+*{
+    margin: 0;/*This would remove space between boxes*/
+    padding: 0;/*This removes space between content and box*/
+    box-sizing: border-box;
+}
 body{
     font-family:sans-serif;
 }
@@ -9,14 +14,17 @@ h1,h2{
 
 h1{   
     font-size: 40;   
+    margin-bottom: 30px;/*This adds space between boxes*/
 }
 
 h2{
     font-size: 25;
+    margin-bottom: 10px;/*This adds space between boxes*/
 }
 
 .main-text{
     text-align: justify;
+    margin-bottom: 15px;/*This adds space between boxes*/
 }
 
 .author-text{
