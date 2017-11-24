@@ -30,3 +30,22 @@ h2{
 .author-text{
     font-size:25px;
 }
+
+.container{
+    width:1150px;
+    margin-left: auto;
+    margin-right: auto;       
+}
+.blog-post {
+    background-color: blue;
+    width: 75%;/*The width is set to 75% of container*/
+}
+
+.other-posts {
+    background-color: green;
+    width: 25%;
+}
+
+.author-box {
+    background-color: yellow;
+}
