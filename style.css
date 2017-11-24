@@ -3,6 +3,39 @@
     padding: 0;/*This removes space between content and box*/
     box-sizing: border-box;
 }
+
+.clear-fix{
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.container{
+    width:1150px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px; /*This adds space between browser top and container*/
+    margin-bottom: 0;
+    margin: 20px auto 0 auto;
+}
+
+.blog-post {
+    width: 75%;/*The width is set to 75% of container*/
+    float: left;
+    padding-right: 30px;/*This adds space between content and box border*/
+}
+
+.other-posts {
+    width: 25%;
+    float: left;
+}
+
+.author-box {
+    border-top: 1px solid #9a9b9b; /*This will add 1px border solid line for top div of color #9a9b9b*/
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
 body{
     font-family:sans-serif;
 }
@@ -31,21 +64,3 @@ h2{
     font-size:25px;
 }
 
-.container{
-    width:1150px;
-    margin-left: auto;
-    margin-right: auto;       
-}
-.blog-post {
-    background-color: blue;
-    width: 75%;/*The width is set to 75% of container*/
-}
-
-.other-posts {
-    background-color: green;
-    width: 25%;
-}
-
-.author-box {
-    background-color: yellow;
-}
